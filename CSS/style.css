@@ -1,0 +1,151 @@
+ html {
+     max-width: 1500px;
+     margin: none;
+     padding: none; 
+ }
+ 
+ /*Fonts*/
+ h2 { 
+     text-align: center; 
+     color: #424C55; 
+    font-size: 50px;
+    font-family: heart_warming, sans-serif;}
+ h3 {text-align: center;
+    font-family: mithella, sans-serif; }
+ h4 {
+     text-align: right;
+    color: #2c3d4d;
+    font-family: heart_warming, sans-serif;
+    font-size: 30px ;}
+p {
+    text-align: center;
+    font-family: mithella, sans-serif;
+}
+@font-face {
+    font-family: heart_warming ;
+    src: url(../Fonts/heart_warming/Heart\ Warming\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+@font-face {
+    font-family: mithella;
+    src: url(../Fonts/mithella/Mithella-Regular.otf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../Fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
+}
+
+
+ 
+ /* Navigation header */
+.navigation {
+    background-color: #E59FBB;
+    padding: 15px;
+    margin-top: 0px;
+
+
+}
+
+
+.navIcons {
+    width: 50%;
+    height: 20px;
+    float:inline-start;
+
+
+}
+
+
+#Linkedin {
+    float: right;
+
+
+
+
+}
+
+
+/* Hero Img */ 
+.heroImg {
+    background-color: #F9F1F1;
+    margin:0px; 
+    background-image: url(../Images/hero-grouped.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    height: 700px;
+    width: 100%;
+ 
+}
+
+/* Skills Section */
+.MainSkills {
+    background-color: #FFFAFE;
+    padding: 50px;
+}
+
+.skillsIMG {
+    display: inline-flex;
+    flex-direction: row;
+   height: 10px;
+   width: 100%%;
+   padding: 50px;
+ 
+
+}
+
+.skillsText {
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black; 
+    font-family: mithella, sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+
+#learnMore {
+background-color: #B74F6F;
+    border-radius: 20px;
+    border: none;
+    color: white; 
+    padding: 20px; 
+    display: block;
+    margin-block: 50px;
+
+}
+
+/* Featured Work Section */ 
+.Featured {
+    background-color: #F9F1F1;
+    padding: 20px; 
+}
+
+.caseTitle {
+    font-size: 50px;
+    display: inline-flex;
+    text-align: end;
+}
+
+#toTop {
+    width: 100;
+    display: block;
+    justify-content: end;
+    position:fixed;
+}
+
+/*footer*/
+.footer {
+    background-color:#E59FBB; 
+    padding: 20px;
+    color: white;
+}
+.footerIcons {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
