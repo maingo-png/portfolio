@@ -1,5 +1,5 @@
  html {
-     max-width: 1500px;
+     width: auto;
      margin: none;
      padding: none; 
  }
@@ -18,7 +18,6 @@
     font-family: heart_warming, sans-serif;
     font-size: 30px ;}
 p {
-    text-align: center;
     font-family: mithella, sans-serif;
 }
 @font-face {
@@ -37,43 +36,39 @@ p {
 
  
  /* Navigation header */
-.navigation {
+.topnav {
     background-color: #E59FBB;
-    padding: 15px;
-    margin-top: 0px;
-
-
+    margin: 0px;
+    padding: 20px; 
+    height: 100px;
+    width: auto;
 }
-
-
 .navIcons {
-    width: 50%;
-    height: 20px;
-    float:inline-start;
+    display: flex; 
+    justify-content: space-around;
+    align-items:flex-start; 
+
+}
 
 
+.Linkedin {
+    float:right;
+    align-items: baseline;
 }
 
 
-#Linkedin {
-    float: right;
-
-
-
-
-}
 
 
 /* Hero Img */ 
 .heroImg {
     background-color: #F9F1F1;
-    margin:0px; 
     background-image: url(../Images/hero-grouped.png);
     background-position: center;
     background-size: 100%;
-    background-repeat: no-repeat; 
-    height: 700px;
-    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+    margin: 0; 
  
 }
 
@@ -84,13 +79,15 @@ p {
 }
 
 .skillsIMG {
-    display: inline-flex;
-    flex-direction: row;
    height: 10px;
    width: 100%%;
    padding: 50px;
- 
 
+}
+
+#Research {
+    width: 10px;
+    height: 10px; 
 }
 
 .skillsText {
@@ -106,14 +103,14 @@ p {
 
 
 
-#learnMore {
+.learnMore {
 background-color: #B74F6F;
     border-radius: 20px;
     border: none;
     color: white; 
     padding: 20px; 
-    display: block;
-    margin-block: 50px;
+    display: inline-flex;
+    justify-content: center;
 
 }
 
@@ -121,19 +118,22 @@ background-color: #B74F6F;
 .Featured {
     background-color: #F9F1F1;
     padding: 20px; 
+    width: auto;
+    height: auto;
+    display:flex;
 }
 
 .caseTitle {
-    font-size: 50px;
-    display: inline-flex;
-    text-align: end;
+    font-size: 30px;
+    float:left;
+    text-align: right center;
+    text
 }
 
-#toTop {
-    width: 100;
-    display: block;
-    justify-content: end;
-    position:fixed;
+.toTop {
+    display: inline;
+    align-items:end; 
+    
 }
 
 /*footer*/
@@ -141,11 +141,13 @@ background-color: #B74F6F;
     background-color:#E59FBB; 
     padding: 20px;
     color: white;
+    text-align: center;
+    height 100px;
+    width: auto;
+
 }
 .footerIcons {
     display: flex; 
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    height: 50%;
+    justify-content: center;
+    align-items:flex-start; 
 }

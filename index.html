@@ -2,24 +2,22 @@
 <html>
 <link href="CSS/style.css" rel="stylesheet" type="text/css"> 
 
-
-<header class="navigation">
 <nav>
+    <section class="topnav">
+        <div class="navIcons">
+           <div class= "Home"> <img src="Images/home-icon.png"></div>
+            <div class="Work"> <img src="Images/work-icon.png"></div>
+            <div class="About"> <img src="Images/about-icon.png"></div>
+            <div class="Contact"> <img src="Images/contact-icon.png"></div>
+        </div>  
 
-<section>
-    <div class="navIcons"> 
-        <img src="Images/home-icon.png" alt="Home">
-        <img src="Images/work-icon.png" alt="Work"> 
-        <img src="Images/about-icon.png" alt="About"> 
-        <img src="Images/contact-icon.png" alt="Contact"> 
-    </div>
+        <div class="Linkedin">
+            <id="linkID"> <img src="Images/linkedin.png"> </id>
 
-    <div> 
-    <id="Linkedin"> <img src="Images/linkedin.png" alt="Linkedin"> </id> 
-    </div>
-</section> 
+        </div>
+    </section>
+
 </nav>
-</header>
 
 <section class="heroImg"> 
    <div>
@@ -32,9 +30,9 @@
     <div>
         <h2>Main Skills</h2>
     <class="skillsIMG">
-         <img src="Images/research-icon.png"> 
-         <img src="Images/story-icon.png"> 
-         <img src="Images/prototype-icon.png">
+         <id="Research"> <img src="Images/research-icon.png" width: 10px height: 10px> </id>
+         <id="Story"> <img src="Images/story-icon.png"> </id>
+         <id="Proto"> <img src="Images/prototype-icon.png"> </id>
          
     </class>
     </div>
@@ -47,33 +45,39 @@
     </ul>
     </div>
 
-    <button id="learnMore"> Learn More About Me </button>
+    <button class="learnMore"> About Me </button>
 </section>
 
 <section class="Featured">
     <div>
         <h2> Featured Work</h2>
         <img src="Images/thumbnails-grouped.png" alt="Case Study Thumbnails">
-    
-        <class="caseTitle">
+    </div>
+
+    <div class="caseTitle">
             <h4> NIH Redesign </h4>
             <p> Transforming the National Institutes of Health’s (NIH) UI via webpage and mobile </p>
             <h4> Track Gov </h4>
             <p> Designing a reminder app that keeps track of important tasks and announcements based on US immigration status </p>
             <h4> Lone Wolf </h4>
             <p> Helping solo travelers plan their trip while providing opportunities to connect with other travelers  </p>
-        </class>
     </div>
-    <id="toTop"> <img src="Images/backtotop.png"> </id>
+
+    <div class="toTop"> <img src="Images/backtotop.png"> </div>
+
+
 </section>
 
 <footer class="footer">
-<h3> Thanks for visiting my porftolio!</h3>
-<class="footerIcons"> 
-    <img src="Images/linkedin.png" alt="Linkedin">
-    <img src="Images/contact-icon.png" alt="Contact"> 
-    <img src="Images/medium-icon.png" alt="Medium"> 
-</class>
+    <h3> Thanks for visiting my porftolio!</h3>
+
+    <div class="footerIcons"> 
+    <div class="linky"> <img src="Images/linkedin.png" alt="Linkedin"> </div>
+    <div class="contactInfo"> <img src="Images/contact-icon.png" alt="Contact"> </div>
+    <div class="Medium"> <img src="Images/medium-icon.png" alt="Medium"> </div>
+    </div>
+
+
 <p> Copyright 2021</p>
 </footer>
 
