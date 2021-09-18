@@ -13,7 +13,6 @@
  h3 {text-align: center;
     font-family: mithella, sans-serif; }
  h4 {
-     text-align: right;
     color: #2c3d4d;
     font-family: heart_warming, sans-serif;
     font-size: 30px ;}
@@ -42,12 +41,15 @@ p {
     padding: 20px; 
     height: 100px;
     width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .navIcons {
-    display: flex; 
-    justify-content: space-around;
-    align-items:flex-start; 
-
+    display: flex;
+    width: 30%; 
+    justify-content: space-between;
 }
 
 
@@ -66,7 +68,7 @@ p {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 650px;
     width: auto;
     margin: 0; 
  
@@ -79,15 +81,14 @@ p {
 }
 
 .skillsIMG {
-   height: 10px;
-   width: 100%%;
-   padding: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
 
 }
 
-#Research {
-    width: 10px;
-    height: 10px; 
+.SkillsText {
+    width: 30%; 
 }
 
 .skillsText {
@@ -109,9 +110,14 @@ background-color: #B74F6F;
     border: none;
     color: white; 
     padding: 20px; 
-    display: inline-flex;
-    justify-content: center;
+    height: 50px; 
+    width: 100px;
 
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
 
 /* Featured Work Section */ 
@@ -120,21 +126,34 @@ background-color: #B74F6F;
     padding: 20px; 
     width: auto;
     height: auto;
-    display:flex;
+    display: flex;
+    flex-direction: column;
 }
 
-.caseTitle {
+.FeaturedWork {
+    display: inline-block; 
+    max-width: 100%;
+    padding: 50px;
+    margin: 5px; 
+
+}
+
+.WorkImg {
+    width: 50%;
+    height: auto; 
+    float: left; 
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.WorkText {
     font-size: 30px;
-    float:left;
-    text-align: right center;
-    text
+    text-align: left;
+    width: 30%; 
+    display: inline-block;
+    margin: 50px;
 }
 
-.toTop {
-    display: inline;
-    align-items:end; 
-    
-}
 
 /*footer*/
 .footer {
@@ -142,12 +161,12 @@ background-color: #B74F6F;
     padding: 20px;
     color: white;
     text-align: center;
-    height 100px;
+    height: 180px;
     width: auto;
+    flex-direction: row;
 
 }
 .footerIcons {
     display: flex; 
-    justify-content: center;
-    align-items:flex-start; 
+    justify-content: space-evenly;
 }
