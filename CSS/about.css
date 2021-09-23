@@ -1,0 +1,134 @@
+/* Entire Page*/ 
+html {
+    width: auto;
+    margin: 0;
+    padding: none;
+    background-color: #FBF7F5 ;
+}
+
+/* Fonts*/ 
+@font-face {
+    font-family: heart_warming;
+    src: url(../Fonts/heart_warming/Heart\ Warming\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+@font-face {
+    font-family: mithella;
+    src: url(../Fonts/mithella/Mithella-Regular.otf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../Fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+p { font-family: mithella, sans-serif;}
+h1 { font-family: heart_warming, sans-serif; 
+    color: #424C55; }
+h2 { font-family: heart_warming, sans-serif;
+    color: #424C55; }
+h3 {font-family: mithella, sans-serif;}
+
+/* Navigation*/ 
+.topnav {
+    background-color: #E59FBB;
+    margin: 0px;
+    padding: 20px; 
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navIcons {
+    display: flex;
+    width: 30%; 
+    justify-content: space-between;
+}
+
+
+.Linkedin {
+    float:right;
+    align-items: baseline;
+}
+
+/* Hero Image & Resume Button*/ 
+
+.hero {
+    background-color: #FBF7F5; 
+}
+
+.AboutMe {
+    text-align: center;
+    padding: 5px; 
+    font-size: 40px; 
+}
+
+.heroIMG {
+    display: flex;
+}
+
+.buttonContainer {
+    text-align: center;
+    padding: 50px; 
+    padding-bottom: 10px;
+}
+
+.Resume {
+    background-color: #B74F6F;
+    color: white; 
+    border-radius: 15px;
+    border: none;
+    padding: 5px; 
+    height: 60px; 
+    width: 180px;
+    font-family: Mulish, sans-serif;
+    font-size: 18px; 
+
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: black; 
+}
+
+/* About Me Text */ 
+
+.aboutContainer {
+    background-color: #FBF7F5; 
+    text-align: center;
+    padding: 5px; 
+    font-size: 50px; 
+    padding-bottom: 80px;
+
+}
+
+.aboutText {
+    text-align: center; 
+    background-color: white; 
+    padding: 80px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    width: 60%;
+    display: inline-block;
+    align-items: center;
+}
+/*Footer*/
+
+.footer {
+    background-color:#E59FBB; 
+    padding: 50px;
+    color: white;
+    text-align: center;
+    height: 180px;
+    width: auto;
+    flex-direction: row;
+
+}
+.footerIcons {
+    display: flex; 
+    justify-content: space-evenly;
+}

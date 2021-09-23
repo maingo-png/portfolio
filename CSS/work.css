@@ -1,0 +1,139 @@
+/* Entire Page*/ 
+html {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #FBF7F5 ; }
+
+/* Fonts*/ 
+@font-face {
+    font-family: heart_warming;
+    src: url(../Fonts/heart_warming/Heart\ Warming\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+@font-face {
+    font-family: mithella;
+    src: url(../Fonts/mithella/Mithella-Regular.otf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(../Fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+p { font-family: mithella, sans-serif;}
+h1 { font-family: heart_warming, sans-serif; 
+    color: #424C55; }
+h2 { font-family: heart_warming, sans-serif;
+    color: #424C55; }
+h3 {font-family: mithella, sans-serif;}
+
+/* Navigation*/ 
+.topnav {
+    background-color: #E59FBB;
+    margin: 0px;
+    padding: 20px; 
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navIcons {
+    display: flex;
+    width: 30%; 
+    justify-content: space-between;
+}
+
+
+.Linkedin {
+    float:right;
+    align-items: baseline;
+}
+
+/* Hero Image & Search Bar*/ 
+.heroWork {
+    margin: 75px;
+}
+
+input {
+    width: 500px; 
+    height: 35px; 
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.searchBar {
+    transform: translate(20, 20)
+}
+
+/* Case Studies*/ 
+
+
+#caseStudies {
+    margin: 40px;
+    display: grid;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    z-index: 1;
+
+}
+
+.caseText {
+    text-align: left;
+    font-size: 18px;
+    line-height: 50px;
+    z-index: 10;
+}
+
+#TrackGov {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: white solid 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#NIH {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: white solid 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#LoneWolf {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: white solid 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#WIP {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: white solid 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color:#E59FBB; 
+    padding: 50px;
+    color: white;
+    text-align: center;
+    height: 180px;
+    width: auto;
+    flex-direction: row;
+
+}
+.footerIcons {
+    display: flex; 
+    justify-content: space-evenly;
+}
