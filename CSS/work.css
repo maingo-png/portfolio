@@ -51,59 +51,46 @@ h3 {font-family: mithella, sans-serif;}
 
 /* Hero Image & Search Bar*/ 
 .heroWork {
-    margin: 75px;
+    margin: 70px;
 }
 
 /* Case Studies*/ 
 
 
 #caseStudies {
-    margin: 40px;
+    margin: 50px;
     display: grid;
     height: auto;
+    width: auto; 
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    row-gap: 20px;
+    column-gap: 20px;
 
 }
 
-.caseText {
-    text-align: left;
-    font-size: 16px;
-    margin: 5px;
-}
+
 
 #TrackGov {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: white solid 70px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 #NIH {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: white solid 70px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    
 }
 
 #LoneWolf {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: white solid 70px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
+    
 }
 
 #WIP {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: white solid 70px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
 }
 
 
@@ -125,10 +112,77 @@ h3 {font-family: mithella, sans-serif;}
 }
 
 /* media screen on 18.2 activity */ 
-@media only screen {
-   html {
-       width: auto;
-       height: auto;
-   }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+    .navIcons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        transform:scale(.75);
+    }
+
+    .Linkedin {
+        width: 30%;
+        display: baseline;
+        transform:scale(.75);
+    }
+    .heroWork  {
+        margin:0;
+       }
+       .heroWorkIMG img {
+           width:100%;
+           margin: 0%; 
+           margin-bottom: 20px;
+       }
     
+       #caseStudies {
+           width: 100%;
+           margin: 0; 
+           row-gap: 10px;
+           column-gap: 10px;
+       }
+
+    
+       #NIH {
+        width:95%;
+    }
+    
+    #TrackGov {
+        width: 95%;
+    }
+
+    
+    #LoneWolf {
+        width:95%;
+    }
+
+    #WIP {
+        width:95%;
+    }
+
+    .footer {
+        width: 80%;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .footerIcons {
+        width: 100%;
+    }
+
+    .linky{
+        transform: scale(.75);
+    }
+
+    .contactInfo {
+        transform:scale(.75);
+    }
+
+    .Medium {
+        transform:scale(.75);
+    }
+
 }

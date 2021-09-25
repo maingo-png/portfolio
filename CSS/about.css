@@ -64,6 +64,7 @@ h3 {font-family: mithella, sans-serif;}
 
 .heroIMG {
     display: flex;
+    width: 100%;
 }
 
 .buttonContainer {
@@ -131,4 +132,67 @@ a:hover {
 .footerIcons {
     display: flex; 
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+    .navIcons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        transform:scale(.75);
+    }
+
+    .Linkedin {
+        width: 30%;
+        display: baseline;
+        transform:scale(.75);
+    }
+  
+    .hero {
+        width: 100%;
+    }
+
+    .AboutMe {
+        font-size: 20px;
+    }
+    
+    .heroIMG {
+        transform:scale(0.35);
+        width: 0;
+        height: 100%;
+    }
+
+    .aboutContainer {
+        font-size: 20px;
+    }
+
+    .aboutText {
+        font-size: 18px; 
+    }
+
+    .footer {
+        width: 80%;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .footerIcons {
+        width: 100%;
+    }
+
+    .linky{
+        transform: scale(.75);
+    }
+
+    .contactInfo {
+        transform:scale(.75);
+    }
+
+    .Medium {
+        transform:scale(.75);
+    }
+
 }
