@@ -54,18 +54,6 @@ h3 {font-family: mithella, sans-serif;}
     margin: 75px;
 }
 
-input {
-    width: 500px; 
-    height: 35px; 
-    border-radius: 10px;
-    display: inline-block;
-
-}
-
-.searchBar {
-    transform: translate(20, 20)
-}
-
 /* Case Studies*/ 
 
 
@@ -75,15 +63,13 @@ input {
     height: auto;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    z-index: 1;
 
 }
 
 .caseText {
     text-align: left;
-    font-size: 18px;
-    line-height: 50px;
-    z-index: 10;
+    font-size: 16px;
+    margin: 5px;
 }
 
 #TrackGov {
@@ -136,4 +122,13 @@ input {
 .footerIcons {
     display: flex; 
     justify-content: space-evenly;
+}
+
+/* media screen on 18.2 activity */ 
+@media only screen {
+   html {
+       width: auto;
+       height: auto;
+   }
+    
 }
