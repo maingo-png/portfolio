@@ -41,6 +41,7 @@ h3 {font-family: mithella, sans-serif;}
     display: flex;
     width: 30%; 
     justify-content: space-between;
+    height: auto;
 }
 
 
@@ -48,6 +49,43 @@ h3 {font-family: mithella, sans-serif;}
     float:right;
     align-items: baseline;
 }
+
+.navText {
+    font-family: Mulish, sans-serif; 
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex; 
+    width: 30%;
+    flex-direction: row; 
+    max-height: 1px; 
+    position: absolute;
+    text-align: left;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+#homeTxt {
+    position: static;
+    overflow:hidden; 
+}
+
+#workTxt {
+    position: static;
+    overflow:hidden; 
+}
+
+#aboutTxt {
+    position: static; 
+    overflow:hidden; 
+}
+
+#contactTxt {
+    position: static; 
+    overflow:hidden; 
+}
+
+
 
 /* Hero Image & Search Bar*/ 
 .heroWork {
