@@ -45,10 +45,32 @@ h3 {font-family: mithella, sans-serif;}
     height: auto;
 }
 
+.Home {
+    position: static; 
+    transform: scale(70%); 
+}
+
+.Work {
+    position: static;
+    transform: scale(70%);
+}
+
+.About {
+    position: static;
+    transform: scale(70%);
+}
+
+.Contact {
+    position: static;
+    transform: scale(70%);
+
+}
 
 .Linkedin {
     float:right;
     align-items: baseline;
+    position: static;
+    transform: scale(70%);
 }
 
 .navText {
@@ -95,41 +117,57 @@ h3 {font-family: mithella, sans-serif;}
 .AboutMe {
     text-align: center;
     padding: 5px; 
-    font-size: 40px; 
+    font-size: 28px; 
+    margin: 10px; 
 }
 
 .heroIMG {
     display: flex;
     width: 100%;
+    transform:scale(90%);
 }
 
 .buttonContainer {
     text-align: center;
-    padding: 50px; 
-    padding-bottom: 10px;
+    padding: 10px; 
 }
 
 .Resume {
     background-color: #B74F6F;
-    color: white; 
-    border-radius: 15px;
+    border-radius: 13px;
     border: none;
+    color: white; 
     padding: 5px; 
     height: 60px; 
     width: 180px;
-    font-family: Mulish, sans-serif;
-    font-size: 18px; 
+    font-family: mithella, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
 
 a {
     color: white; 
     text-decoration: none;
+    font-size: 20px; 
 }
 
 a:hover {
-    color: black; 
+    color: white; 
+    font-size: 25px;
 }
+
+.Resume:hover {
+    background-color:#E59FBB;
+
+}
+
 
 /* About Me Text */ 
 
@@ -137,8 +175,8 @@ a:hover {
     background-color: #FBF7F5; 
     text-align: center;
     padding: 5px; 
-    font-size: 50px; 
-    padding-bottom: 80px;
+    font-size: 28px; 
+    padding-bottom: 30px;
 
 }
 
@@ -148,8 +186,8 @@ a:hover {
     padding: 80px;  
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 30px;
-    width: 60%;
+    font-size: 20px;
+    width: 40%;
     display: inline-block;
     align-items: center;
 }
@@ -168,6 +206,7 @@ a:hover {
 .footerIcons {
     display: flex; 
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -220,15 +259,17 @@ a:hover {
     }
 
     .linky{
-        transform: scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
     .contactInfo {
-        transform:scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
-    .Medium {
-        transform:scale(.75);
+    .Behance {
+        position: static;
+        transform: scale(70%);
     }
-
 }

@@ -8,14 +8,14 @@
  h2 { 
      text-align: center; 
      color: #424C55; 
-    font-size: 50px;
+    font-size: 40px;
     font-family: heart_warming, sans-serif;}
  h3 {text-align: center;
     font-family: mithella, sans-serif; }
  h4 {
     color: #2c3d4d;
     font-family: heart_warming, sans-serif;
-    font-size: 30px ;}
+    font-size: 25px ;}
 p {
     font-family: mithella, sans-serif;
 }
@@ -51,27 +51,52 @@ p {
     width: 30%; 
     justify-content: space-between;
     height: auto; 
+
 }
 
+.Home {
+    position: static; 
+    transform: scale(70%); 
+}
+
+
+.Work {
+    position: static;
+    transform: scale(70%);
+}
+
+.About {
+    position: static;
+    transform: scale(70%);
+}
+
+.Contact {
+    position: static;
+    transform: scale(70%);
+
+}
 
 .Linkedin {
     float:right;
     align-items: baseline;
+    position: static;
+    transform: scale(70%);
 }
 
 .navText {
     font-family: Mulish, sans-serif; 
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     justify-content: space-between;
     display: flex; 
-    width: 30%;
+    width: 29.35%;
     flex-direction: row; 
     max-height: 1px; 
     position: absolute;
-    text-align: left;
-    margin-top: 15px;
-    padding: 3px;
+    text-align: initial;
+    margin-top: 10px;
+    margin-left: 3px;
+    padding: 3px; 
 }
 
 #homeTxt {
@@ -97,7 +122,7 @@ p {
 /* Hero Img */ 
 .heroImg {
     background-color: #F9F1F1;
-    background-image: url(../Images/hero-grouped.png);
+    background-image: url(../Images/hero-image-fullhd.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -121,7 +146,9 @@ p {
 }
 
 .SkillsText {
-    width: 30%; 
+    width: 25%; 
+    margin-right: 20px;
+
 }
 
 .skillsText {
@@ -131,22 +158,29 @@ p {
     justify-content: space-evenly;
     color: black; 
     font-family: mithella, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     list-style: none;
 }
 
+.thumbnail {
+    justify-content: space-evenly;
+    transform: scale(90%); 
+    margin-left: 20px;
+}
 
+/*Button*/
 
 .learnMore {
 background-color: #B74F6F;
-    border-radius: 20px;
+    border-radius: 13px;
     border: none;
     color: white; 
     padding: 5px; 
     height: 60px; 
     width: 180px;
-    font-family: Mulish, sans-serif;
-    font-size: 18px; 
+    font-family: mithella, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -154,6 +188,24 @@ background-color: #B74F6F;
     display: flex;
     justify-content: center;
 }
+
+
+a {
+    color: white; 
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+a:hover {
+    color: white; 
+    font-size: 25px;
+}
+
+.learnMore:hover {
+    background-color:#E59FBB;
+
+}
+
 
 /* Featured Work Section */ 
 .Featured {
@@ -167,12 +219,8 @@ background-color: #B74F6F;
 
 .FeaturedWork {
     display: inline-block; 
-    max-width: 100%;
-    padding: 50px;
-    margin: 5px; 
-
+    margin: 5px;
 }
-
 
 
 .WorkImg {
@@ -180,77 +228,17 @@ background-color: #B74F6F;
     height: auto; 
     float: left; 
     border-radius: 20px;
-    margin: 30px;
+    margin-left: 60px;
+    transform:scale(80%);
+    justify-content: center;
 }
 
 .WorkText {
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     width: 30%; 
     display: inline-block;
-    margin: 50px;
-}
-
-.AboutMe {
-    text-align: center;
-    padding: 5px; 
-    font-size: 40px; 
-}
-
-.heroIMG {
-    display: flex;
-}
-
-.buttonContainer {
-    text-align: center;
-    padding: 50px; 
-    padding-bottom: 10px;
-}
-
-.Resume {
-    background-color: #B74F6F;
-    color: white; 
-    border-radius: 15px;
-    border: none;
-    padding: 5px; 
-    height: 60px; 
-    width: 180px;
-    font-family: Mulish, sans-serif;
-    font-size: 18px; 
-
-}
-
-a {
-    color: white; 
-    text-decoration: none;
-}
-
-a:hover {
-    color: black; 
-}
-
-
-/* About Me Text */ 
-
-.aboutContainer {
-    background-color: #FBF7F5; 
-    text-align: center;
-    padding: 5px; 
-    font-size: 50px; 
-    padding-bottom: 80px;
-
-}
-
-.aboutText {
-    text-align: center; 
-    background-color: white; 
-    padding: 80px;  
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    width: 60%;
-    display: inline-block;
-    align-items: center;
+    margin: 80px; 
 }
 
 
@@ -268,6 +256,7 @@ a:hover {
 .footerIcons {
     display: flex; 
     justify-content: space-evenly;
+    margin: 30px; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -341,15 +330,18 @@ a:hover {
     }
 
     .linky{
-        transform: scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
     .contactInfo {
-        transform:scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
-    .Medium {
-        transform:scale(.75);
+    .Behance {
+        position: static;
+        transform: scale(70%);
     }
 
 }

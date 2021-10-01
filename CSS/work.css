@@ -44,11 +44,34 @@ h3 {font-family: mithella, sans-serif;}
     height: auto;
 }
 
+.Home {
+    position: static; 
+    transform: scale(70%); 
+}
+
+.Work {
+    position: static;
+    transform: scale(70%);
+}
+
+.About {
+    position: static;
+    transform: scale(70%);
+}
+
+.Contact {
+    position: static;
+    transform: scale(70%);
+
+}
 
 .Linkedin {
     float:right;
     align-items: baseline;
+    position: static;
+    transform: scale(70%);
 }
+
 
 .navText {
     font-family: Mulish, sans-serif; 
@@ -89,22 +112,22 @@ h3 {font-family: mithella, sans-serif;}
 
 /* Hero Image & Search Bar*/ 
 .heroWork {
-    margin: 70px;
+    margin: 50px;
+    transform:scale(90%);
 }
 
 /* Case Studies*/ 
 
 
 #caseStudies {
-    margin: 50px;
+    margin-left: 100px;
     display: grid;
     height: auto;
-    width: auto; 
+    width: 1100px; 
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    row-gap: 20px;
-    column-gap: 20px;
-
+    table-layout: fixed;
+    
 }
 
 
@@ -112,23 +135,27 @@ h3 {font-family: mithella, sans-serif;}
 #TrackGov {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scale(80%);
 }
 
 #NIH {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scale(80%);
     
 }
 
 #LoneWolf {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scale(80%);
     
 }
 
 #WIP {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scale(80%);
 }
 
 
@@ -147,6 +174,7 @@ h3 {font-family: mithella, sans-serif;}
 .footerIcons {
     display: flex; 
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 /* media screen on 18.2 activity */ 
@@ -210,17 +238,18 @@ h3 {font-family: mithella, sans-serif;}
     .footerIcons {
         width: 100%;
     }
-
     .linky{
-        transform: scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
     .contactInfo {
-        transform:scale(.75);
+        position: static;
+        transform: scale(70%);
     }
 
-    .Medium {
-        transform:scale(.75);
+    .Behance {
+        position: static;
+        transform: scale(70%);
     }
-
 }
